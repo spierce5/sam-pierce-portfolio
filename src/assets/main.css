@@ -1,0 +1,33 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.gray {
+  text-decoration: none;
+  color: rgb(141, 141, 141);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(219, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+    place-items: center;
+  }
+
+  #app {
+    display: block;
+    padding: 0 20rem;
+    height: 100vh;
+  }
+}
