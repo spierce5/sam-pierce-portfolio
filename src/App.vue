@@ -14,11 +14,9 @@ const route = useRoute()
         {{ route.name }}
       </div>
       <nav class="pages">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/experience">Experience</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/resume">Resume</RouterLink>
-        <RouterLink to="contact">Contact</RouterLink>
+        <RouterLink to="/" class="link">Home</RouterLink>
+        <RouterLink to="/experience" class="link">Experience</RouterLink>
+        <RouterLink to="/projects" class="link">Projects</RouterLink>
       </nav>
     </div>
     <section class="content">
@@ -61,6 +59,14 @@ const route = useRoute()
 
 .content {
   max-height: 90%;
-  /* margin-top: 1em; */
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
 }
 </style>

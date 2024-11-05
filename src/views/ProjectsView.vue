@@ -85,12 +85,20 @@ watchEffect(async () => {
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .projContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-    margin-top: 2em;
-  }
+.projContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 2em;
+  justify-content: space-around;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
 }
 </style>

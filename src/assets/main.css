@@ -3,6 +3,39 @@
 #app {
   margin: 0 auto;
   font-weight: normal;
+  display: block;
+  padding: 0 20rem;
+  height: 100vh;
+}
+
+body {
+  display: block;
+  place-items: center;
+}
+
+.button {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(8, 8, 78);
+  max-width: min-content;
+  text-wrap: nowrap;
+  justify-self: flex-end;
+  padding: 0.8em;
+}
+
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  max-width: min-content;
+  text-wrap: nowrap;
+}
+
+.link:hover {
+  background-color: transparent;
+  color: red;
+  transition: color 1s;
 }
 
 a,
@@ -19,15 +52,14 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: block;
-    place-items: center;
-  }
-
+@media (max-width: 1024px) {
   #app {
-    display: block;
-    padding: 0 20rem;
-    height: 100vh;
+    padding: 0 5em;
   }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
 }
