@@ -22,13 +22,14 @@ const { experience } = ResumeData
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .xpContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 1em;
-    margin-top: 2em;
-  }
+.xpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+@media (max-width: 1024px) {
 }
 </style>

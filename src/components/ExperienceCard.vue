@@ -41,27 +41,28 @@ const formatDate = (date: Date | undefined): string => {
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
-  .xpCard {
-    border: 1px solid gainsboro;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    box-shadow: 5px 5px 5px 2px slategrey;
-  }
+.xpCard {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  box-shadow: 5px 5px 5px 2px slategrey;
+}
 
-  .xpInfoRow {
-    display: flex;
-    justify-content: space-between;
-  }
+.xpInfoRow {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .company {
-    font-weight: bold;
-  }
+.company {
+  font-weight: bold;
+}
 
-  .xpTitle {
-    font-style: italic;
-  }
+.xpTitle {
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
 }
 </style>

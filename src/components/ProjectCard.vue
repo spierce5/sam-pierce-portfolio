@@ -61,6 +61,9 @@ function parseName(name: string): string {
 }
 
 @media (max-width: 768px) {
+  .pjCard {
+    height: 22vh;
+  }
 }
 
 @media (max-width: 480px) {

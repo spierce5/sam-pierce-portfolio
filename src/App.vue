@@ -65,6 +65,9 @@ const route = useRoute()
 }
 
 @media (max-width: 768px) {
+  .content {
+    max-height: 70vh;
+  }
 }
 
 @media (max-width: 480px) {

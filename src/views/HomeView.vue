@@ -2,6 +2,17 @@
 import { FaLinkedin } from 'vue-icons-plus/fa'
 import { AiTwotoneMail } from 'vue-icons-plus/ai'
 import { CgFileDocument } from 'vue-icons-plus/cg'
+// import { useWindowSize } from '@vueuse/core'
+
+// const { width } = useWindowSize()
+
+const titleText = "Hello, I'm Sam Pierce"
+const messageText =
+  "I'm a senior technical consultant specializing in maintenance \
+software for the manufacturing industry. I have a passion for \
+building efficient, reliable solutions and am exploring the world of \
+full-stack development. When I'm not designing software, you'll \
+probably find me making music or diving into new creative projects."
 </script>
 
 <template>
@@ -9,13 +20,14 @@ import { CgFileDocument } from 'vue-icons-plus/cg'
     <div class="homeContent">
       <div class="infoPanel">
         <div class="welcomeMsg">
-          <div class="welcomeTitle">Hello, I'm Sam Pierce</div>
+          <div class="welcomeTitle">{{ titleText }}</div>
           <div>
-            I'm a senior technical consultant specializing in maintenance
+            <!-- I'm a senior technical consultant specializing in maintenance
             software for the manufacturing industry. I have a passion for
             building efficient, reliable solutions and am exploring the world of
             full-stack development. When I'm not designing software, you’ll
-            probably find me making music or diving into new creative projects.
+            probably find me making music or diving into new creative projects. -->
+            {{ messageText }}
           </div>
         </div>
         <div class="contactBar">
@@ -178,6 +190,9 @@ import { CgFileDocument } from 'vue-icons-plus/cg'
 }
 
 @media (max-width: 768px) {
+  .infoPanel {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px) {
