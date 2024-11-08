@@ -2,9 +2,9 @@
 import { FaLinkedin } from 'vue-icons-plus/fa'
 import { AiTwotoneMail } from 'vue-icons-plus/ai'
 import { CgFileDocument } from 'vue-icons-plus/cg'
-// import { useWindowSize } from '@vueuse/core'
+import { useWindowSize } from '@vueuse/core'
 
-// const { width } = useWindowSize()
+const { viewWidth } = useWindowSize()
 
 const titleText = "Hello, I'm Sam Pierce"
 const messageText =
@@ -13,6 +13,7 @@ software for the manufacturing industry. I have a passion for \
 building efficient, reliable solutions and am exploring the world of \
 full-stack development. When I'm not designing software, you'll \
 probably find me making music or diving into new creative projects."
+const imagePath = '/motion-portrait.gif'
 </script>
 
 <template>
@@ -22,11 +23,6 @@ probably find me making music or diving into new creative projects."
         <div class="welcomeMsg">
           <div class="welcomeTitle">{{ titleText }}</div>
           <div>
-            <!-- I'm a senior technical consultant specializing in maintenance
-            software for the manufacturing industry. I have a passion for
-            building efficient, reliable solutions and am exploring the world of
-            full-stack development. When I'm not designing software, you’ll
-            probably find me making music or diving into new creative projects. -->
             {{ messageText }}
           </div>
         </div>
@@ -46,7 +42,7 @@ probably find me making music or diving into new creative projects."
         </div>
       </div>
       <div class="imageContainer">
-        <img src="../assets/motion-portrait.gif" alt="me" class="portrait" />
+        <img :src="imagePath" alt="me" class="portrait" />
       </div>
     </div>
   </main>

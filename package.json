@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vueuse/core": "^11.2.0",
     "vue": "^3.5.12",
     "vue-icons-plus": "^0.1.7",
     "vue-portfolio": "file:",
