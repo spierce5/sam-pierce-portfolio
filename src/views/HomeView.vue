@@ -14,6 +14,24 @@ building efficient, reliable solutions and am exploring the world of \
 full-stack development. When I'm not designing software, you'll \
 probably find me making music or diving into new creative projects."
 const imagePath = '/motion-portrait.gif'
+
+const links = [
+  {
+    path: '/Resume.pdf',
+    icon: CgFileDocument,
+    text: 'Resume',
+  },
+  {
+    path: 'https://www.linkedin.com/in/pierce-samuel',
+    icon: FaLinkedin,
+    text: 'linkedin.com/in/pierce-samuel',
+  },
+  {
+    path: 'mail-to:sam.pierce76@gmail.com',
+    icon: AiTwotoneMail,
+    text: 'Sam.Pierce76@gmail.com',
+  },
+]
 </script>
 
 <template>
@@ -27,22 +45,33 @@ const imagePath = '/motion-portrait.gif'
           </div>
         </div>
         <div class="contactBar">
-          <a href="/Resume.pdf" target="_blank" class="iconButton link"
-            ><CgFileDocument />Resume</a
-          >
-          <a
-            href="https://www.linkedin.com/in/pierce-samuel"
-            target="_blank"
-            class="iconButton link"
-            ><FaLinkedin />linkedin.com/in/pierce-samuel</a
-          >
-          <a href="mail-to:sam.pierce76@gmail.com" class="iconButton link"
-            ><AiTwotoneMail /> Sam.Pierce76@gmail.com</a
-          >
+          <div v-for="link in links" v-bind:key="link.path">
+            <a :href="link.path" target="_blank" class="iconButton link"
+              ><component :is="link.icon" />{{ link.text }}</a
+            >
+          </div>
         </div>
       </div>
       <div class="imageContainer">
         <img :src="imagePath" alt="me" class="portrait" />
+      </div>
+    </div>
+    <div class="homeMobileContent">
+      <div class="welcomeTitle">
+        {{ titleText.split(' ')[0] }}<br />{{ titleText.split(',')[1] }}
+      </div>
+      <div class="imageContainer">
+        <img :src="imagePath" alt="me" class="portrait" />
+      </div>
+      <div>
+        {{ messageText }}
+      </div>
+      <div class="contactBar">
+        <div v-for="link in links" v-bind:key="link.path">
+          <a :href="link.path" target="_blank" class="iconButton link"
+            ><component :is="link.icon" />{{ link.text }}</a
+          >
+        </div>
       </div>
     </div>
   </main>
@@ -64,6 +93,10 @@ const imagePath = '/motion-portrait.gif'
   align-items: center;
 }
 
+.homeMobileContent {
+  display: none;
+}
+
 .infoPanel {
   width: 50%;
   height: 100%;
@@ -79,14 +112,7 @@ const imagePath = '/motion-portrait.gif'
   line-height: 1.2; /* Slightly tighter line height for compactness */
   margin: 0.5em 0;
   text-align: left;
-  /* } */
 
-  /* .welcomeTitle:hover {
-  color: red;
-  transition: color 1s;
-} */
-
-  /* .welcomeTitle:hover { */
   background: linear-gradient(to right, black, red, blue);
   background-size: 200%;
   color: transparent;
@@ -192,5 +218,46 @@ const imagePath = '/motion-portrait.gif'
 }
 
 @media (max-width: 480px) {
+  .home {
+    transform: none;
+  }
+
+  .homeContent {
+    display: none;
+  }
+
+  .homeMobileContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 70px;
+    gap: 2em;
+  }
+
+  .welcomeTitle {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .imageContainer {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portrait {
+    height: 400px;
+  }
+
+  .contactBar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
 </style>

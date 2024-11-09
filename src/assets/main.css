@@ -15,8 +15,8 @@ body {
 
 .button {
   border-radius: 5px;
-  color: white;
-  background-color: rgb(8, 8, 78);
+  color: var(--color-background);
+  background-color: var(--color-button);
   max-width: min-content;
   text-wrap: nowrap;
   justify-self: flex-end;

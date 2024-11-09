@@ -71,5 +71,15 @@ const route = useRoute()
 }
 
 @media (max-width: 480px) {
+  .content {
+    padding: 0;
+    margin: 0;
+  }
+  .pageName {
+    display: none;
+  }
+  .header {
+    justify-content: flex-end;
+  }
 }
 </style>
