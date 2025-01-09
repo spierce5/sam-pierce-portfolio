@@ -4,7 +4,7 @@ import { AiTwotoneMail } from 'vue-icons-plus/ai'
 import { CgFileDocument } from 'vue-icons-plus/cg'
 import { useWindowSize } from '@vueuse/core'
 
-const { viewWidth } = useWindowSize()
+// const { viewWidth } = useWindowSize()
 
 const titleText = "Hello, I'm Sam Pierce"
 const messageText =
