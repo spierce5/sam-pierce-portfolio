@@ -47,7 +47,7 @@ const formatDate = (date: Date | undefined): string => {
   display: flex;
   flex-direction: column;
   padding: 1em;
-  box-shadow: 5px 5px 5px 2px slategrey;
+  box-shadow: var(--card-box-shadow);
 }
 
 .xpInfoRow {

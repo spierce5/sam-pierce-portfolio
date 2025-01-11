@@ -27,7 +27,7 @@ const links = [
     text: 'linkedin.com/in/pierce-samuel',
   },
   {
-    path: 'mail-to:sam.pierce76@gmail.com',
+    path: 'mailto:sam.pierce76@gmail.com',
     icon: AiTwotoneMail,
     text: 'Sam.Pierce76@gmail.com',
   },
