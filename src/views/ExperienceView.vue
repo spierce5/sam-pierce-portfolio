@@ -2,21 +2,21 @@
 import ResumeData from '../assets/resume_data.json'
 import ExperienceCard from '@/components/ExperienceCard.vue'
 
-const { experience } = ResumeData
+const { work } = ResumeData
 </script>
 
 <template>
   <div class="xpContainer">
     <ExperienceCard
-      v-for="xp in experience"
-      :title="xp.title"
-      :company="xp.company"
-      :start_date="new Date(xp.start_date)"
-      :end_date="!xp.end_date ? undefined : new Date(xp.end_date)"
-      :active="xp.active"
-      :responsibilities="xp.responsibilities"
+      v-for="xp in work"
+      :title="xp.position"
+      :company="xp.name"
+      :start_date="new Date(xp.startDate)"
+      :end_date="!xp.endDate ? undefined : new Date(xp.endDate)"
+      :active="!xp.endDate ? true : false"
+      :responsibilities="xp.highlights"
       :location="xp.location"
-      :key="xp.title"
+      :key="xp.position"
     />
   </div>
 </template>

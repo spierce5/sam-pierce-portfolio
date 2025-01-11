@@ -1,160 +1,275 @@
 {
-    "name": "Samuel Pierce",
-    "contact": {
-        "phone": "(402) 405-9977",
-        "email": "sam.pierce76@gmail.com",
-        "linkedin": "https://linkedin.com/in/pierce-samuel",
-        "portfolio": "https://samuel-pierce.vercel.app"
-    },
-    "education": [{
-            "institution": "University of Nebraska-Lincoln",
-            "degree": "B.S. in Mathematics and German",
-            "location": "Lincoln, NE",
-            "start_date": "2017-08-01",
-            "end_date": "2021-05-01",
-            "active": false
-        }
-    ],
-    "experience": [{
-            "company": "Aptean",
-            "title": "Senior Professional Services Consultant",
-            "location": "Alpharetta, GA",
-            "start_date": "2024-01-01",
-            "end_date": null,
-            "active": true,
-            "responsibilities": [
-                "To be completed"
-            ]
-        }, {
-            "company": "Aptean",
-            "title": "Senior Customer Support Consultant",
-            "location": "Alpharetta, GA",
-            "start_date": "2022-10-01",
-            "end_date": "2024-01-01",
-            "active": false,
-            "responsibilities": [
-                "Analyzed complex issues and selected methods for obtaining results.",
-                "Supported Enterprise Asset Management/Computerized Maintenance Management applications in SAAS and On-Premise environments.",
-                "Troubleshot customer problems using internal tools.",
-                "Trained team members and consulted on complex issues.",
-                "Assisted with prioritization of product issues with Development and SRE Teams.",
-                "Maintained and improved group processes, communicated process issues, and suggested improvements.",
-                "Used SQL, Python, PowerBI, and Salesforce to create reports and analyze customer environments."
-            ]
-        }, {
-            "company": "Aptean",
-            "title": "Customer Support Consultant",
-            "location": "Alpharetta, GA",
-            "start_date": "2022-04-01",
-            "end_date": "2022-10-01",
-            "active": false,
-            "responsibilities": [
-                "Worked on problems requiring evaluation and demonstrated judgment in obtaining solutions.",
-                "Networked with senior personnel in area of expertise."
-            ]
-        }, {
-            "company": "Aptean",
-            "title": "Customer Success Analyst",
-            "location": "Alpharetta, GA",
-            "start_date": "2021-08-01",
-            "end_date": "2022-04-01",
-            "active": false,
-            "responsibilities": [
-                "Analyzed situations requiring review of multiple factors.",
-                "Built productive internal and external working relationships."
-            ]
-        }, {
-            "company": "University of Nebraska - Lincoln Department of Mathematics",
-            "title": "Learning Assistant",
-            "location": "Lincoln, NE",
-            "start_date": "2020-08-01",
-            "end_date": "2021-05-01",
-            "active": false,
-            "responsibilities": [
-                "Facilitated student learning by answering questions and leading review sessions.",
-                "Managed Zoom meetings and attendance."
-            ]
-        }, {
-            "company": "University of Nebraska - Lincoln Department of Mathematics",
-            "title": "Math Resource Counselor",
-            "location": "Lincoln, NE",
-            "start_date": "2019-08-01",
-            "end_date": "2020-05-01",
-            "active": false,
-            "responsibilities": [
-                "Assisted students with coursework in algebra, trigonometry, and calculus."
-            ]
-        }, {
-            "company": "United States Marine Corps",
-            "title": "Field Radio Operator, Rank: Sergeant (E5)",
-            "location": "MCAGCC Twentynine Palms, CA",
-            "start_date": "2016-05-01",
-            "end_date": "2016-08-01",
-            "active": false,
-            "responsibilities": [
-                "Squad Leader for 1st Battalion 7th Marines Communications Platoon"
-            ]
-        }, {
-            "company": "United States Marine Corps",
-            "title": "Field Radio Operator, Rank: Corporal (E4)",
-            "location": "Operation Inherent Resolve, Iraq",
-            "start_date": "2015-10-01",
-            "end_date": "2016-05-01",
-            "active": false,
-            "responsibilities": [
-                "Radio Operator for Weapons Company 1st Battalion 7th Marines",
-                "Member of Battalion Commander’s Personal Security Detail",
-                "Provided security and mitigated internal threats for Building Partnership Capacity Platoon as they facilitated training for the Iraqi Army"
-            ]
-        }, {
-            "company": "United States Marine Corps",
-            "title": "Field Radio Operator, Rank: Corporal (E4)",
-            "location": "MCAGCC Twentynine Palms, CA",
-            "start_date": "2015-04-01",
-            "end_date": "2015-10-01",
-            "active": false,
-            "responsibilities": [
-                "Battalion Commander’s Radio Operator",
-                "Battalion Commander’s Driver",
-                "Member of Battalion Commander’s Personal Security Detail"
-            ]
-        }, {
-            "company": "United States Marine Corps",
-            "title": "Field Radio Operator, Rank: Corporal (E4)",
-            "location": "Okinawa, Japan",
-            "start_date": "2013-11-01",
-            "end_date": "2015-04-01",
-            "active": false,
-            "responsibilities": [
-                "Electronic Key Management System Local Element Manager",
-                "Responsible for accountability of $5.1 million worth of controlled cryptographic items",
-                "Improved asset tracking and management by implementing digital tracking methods and increasing utilization and accuracy of computerized systems"
-            ]
-        }
-    ],
-    "skills": {
-        "languages": ["JavaScript", "Python", "Java", "MS SQL", "MySQL", "PostgreSQL"],
-        "libraries_frameworks": ["React", "Next.js", "Node.js", "Spring Boot", "Firebase", "Pandas", "Material UI", "TailwindCSS"],
-        "markup_style": ["HTML", "CSS", "LaTeX"],
-        "software": ["Microsoft Office", "PowerBI", "Salesforce", "Git"]
-    },
-    "certifications": [{
-            "title": "Introduction to Data Science in Python",
-            "institution": "University of Michigan, Coursera",
-            "date": "2021-07-25"
-        }, {
-            "title": "Responsive Web Design",
-            "institution": "freeCodeCamp",
-            "date": "2021-08-25"
-        }, {
-            "title": "JavaScript Algorithms and Data Structures",
-            "institution": "freeCodeCamp",
-            "date": "2021-10-03"
-        }, {
-            "title": "Front End Development Libraries",
-            "institution": "freeCodeCamp",
-            "date": "2022-06-05"
-        }
-    ],
-    "interests": ["Math", "Guitar", "German", "Reading", "Singing", "Traveling", "Coding"]
+	"basics": {
+		"name": "Samuel Pierce",
+		"label": "Senior Professional Services Consultant",
+		"image": "",
+		"email": "sam.pierce76@gmail.com",
+		"phone": "(402) 405-9977",
+		"url": "https://samuel-pierce.vercel.app",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Lincoln",
+			"countryCode": "US",
+			"region": "NE"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "pierce-samuel",
+				"url": "https://linkedin.com/in/pierce-samuel"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Aptean",
+			"location": "Alpharetta, GA",
+			"position": "Senior Professional Services Consultant",
+			"startDate": "2024-01-01",
+			"endDate": null,
+			"summary": "To be completed",
+			"highlights": []
+		},
+		{
+			"name": "Aptean",
+			"location": "Alpharetta, GA",
+			"position": "Senior Customer Support Consultant",
+			"startDate": "2022-10-01",
+			"endDate": "2024-01-01",
+			"summary": "",
+			"highlights": [
+				"Analyzed complex issues and selected methods for obtaining results.",
+				"Supported Enterprise Asset Management/Computerized Maintenance Management applications in SAAS and On-Premise environments.",
+				"Troubleshot customer problems using internal tools.",
+				"Trained team members and consulted on complex issues.",
+				"Assisted with prioritization of product issues with Development and SRE Teams.",
+				"Maintained and improved group processes, communicated process issues, and suggested improvements.",
+				"Used SQL, Python, PowerBI, and Salesforce to create reports and analyze customer environments."
+			]
+		},
+		{
+			"name": "Aptean",
+			"location": "Alpharetta, GA",
+			"position": "Customer Support Consultant",
+			"startDate": "2022-04-01",
+			"endDate": "2022-10-01",
+			"summary": "",
+			"highlights": [
+				"Worked on problems requiring evaluation and demonstrated judgment in obtaining solutions.",
+				"Networked with senior personnel in area of expertise."
+			]
+		},
+		{
+			"name": "Aptean",
+			"location": "Alpharetta, GA",
+			"position": "Customer Success Analyst",
+			"startDate": "2021-08-01",
+			"endDate": "2022-04-01",
+			"summary": "",
+			"highlights": [
+				"Analyzed situations requiring review of multiple factors.",
+				"Built productive internal and external working relationships."
+			]
+		},
+		{
+			"name": "University of Nebraska - Lincoln Department of Mathematics",
+			"location": "Lincoln, NE",
+			"position": "Learning Assistant",
+			"startDate": "2020-08-01",
+			"endDate": "2021-05-01",
+			"summary": "",
+			"highlights": [
+				"Facilitated student learning by answering questions and leading review sessions.",
+				"Managed Zoom meetings and attendance."
+			]
+		},
+		{
+			"name": "University of Nebraska - Lincoln Department of Mathematics",
+			"location": "Lincoln, NE",
+			"position": "Math Resource Counselor",
+			"startDate": "2019-08-01",
+			"endDate": "2020-05-01",
+			"summary": "",
+			"highlights": [
+				"Assisted students with coursework in algebra, trigonometry, and calculus."
+			]
+		},
+		{
+			"name": "United States Marine Corps",
+			"location": "Twentynine Palms, CA",
+			"position": "Field Radio Operator, Rank: Sergeant (E5)",
+			"startDate": "2016-05-01",
+			"endDate": "2016-08-01",
+			"summary": "",
+			"highlights": [
+				"Squad Leader for 1st Battalion 7th Marines Communications Platoon"
+			]
+		},
+		{
+			"name": "United States Marine Corps",
+			"location": "Iraq",
+			"position": "Field Radio Operator, Rank: Corporal (E4)",
+			"startDate": "2015-10-01",
+			"endDate": "2016-05-01",
+			"summary": "",
+			"highlights": [
+				"Radio Operator for Weapons Company 1st Battalion 7th Marines",
+				"Member of Battalion Commander’s Personal Security Detail",
+				"Provided security and mitigated internal threats for Building Partnership Capacity Platoon as they facilitated training for the Iraqi Army"
+			]
+		},
+		{
+			"name": "United States Marine Corps",
+			"location": "Twentynine Palms, CA",
+			"position": "Field Radio Operator, Rank: Corporal (E4)",
+			"startDate": "2015-04-01",
+			"endDate": "2015-10-01",
+			"summary": "",
+			"highlights": [
+				"Battalion Commander’s Radio Operator",
+				"Battalion Commander’s Driver",
+				"Member of Battalion Commander’s Personal Security Detail"
+			]
+		},
+		{
+			"name": "United States Marine Corps",
+			"location": "Okinawa, JP",
+			"position": "Field Radio Operator, Rank: Corporal (E4)",
+			"startDate": "2013-11-01",
+			"endDate": "2015-04-01",
+			"summary": "",
+			"highlights": [
+				"Electronic Key Management System Local Element Manager",
+				"Responsible for accountability of $5.1 million worth of controlled cryptographic items",
+				"Improved asset tracking and management by implementing digital tracking methods and increasing utilization and accuracy of computerized systems"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University of Nebraska-Lincoln",
+			"url": "",
+			"area": "Mathematics and German",
+			"studyType": "Bachelor",
+			"startDate": "2017-08-01",
+			"endDate": "2021-05-01",
+			"score": "",
+			"courses": []
+		}
+	],
+	"certificates": [
+		{
+			"name": "Introduction to Data Science in Python",
+			"date": "2021-07-25",
+			"issuer": "University of Michigan, Coursera",
+			"url": ""
+		},
+		{
+			"name": "Responsive Web Design",
+			"date": "2021-08-25",
+			"issuer": "freeCodeCamp",
+			"url": ""
+		},
+		{
+			"name": "JavaScript Algorithms and Data Structures",
+			"date": "2021-10-03",
+			"issuer": "freeCodeCamp",
+			"url": ""
+		},
+		{
+			"name": "Front End Development Libraries",
+			"date": "2022-06-05",
+			"issuer": "freeCodeCamp",
+			"url": ""
+		}
+	],
+	"skills": [
+		{
+			"name": "Languages",
+			"level": "",
+			"keywords": [
+				"C#",
+				"JavaScript",
+				"Python",
+				"Java",
+				"SQL"
+			]
+		},
+		{
+			"name": "Libraries & Frameworks",
+			"level": "",
+			"keywords": [
+				"Vue",
+				".NET",
+				"React",
+				"Next.js",
+				"Node.js",
+				"Spring Boot",
+				"Firebase",
+				"Pandas",
+				"Material UI",
+				"TailwindCSS"
+			]
+		},
+		{
+			"name": "Markup & Style",
+			"level": "",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"LaTeX"
+			]
+		},
+		{
+			"name": "Software",
+			"level": "",
+			"keywords": [
+				"Microsoft Office",
+				"PowerBI",
+				"Salesforce",
+				"Git"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native"
+		},
+		{
+			"language": "German",
+			"fluency": "Advanced"
+		}
+	],
+	"interests": [
+		{
+			"name": "Math",
+			"keywords": []
+		},
+		{
+			"name": "Guitar",
+			"keywords": []
+		},
+		{
+			"name": "German",
+			"keywords": []
+		},
+		{
+			"name": "Reading",
+			"keywords": []
+		},
+		{
+			"name": "Singing",
+			"keywords": []
+		},
+		{
+			"name": "Traveling",
+			"keywords": []
+		},
+		{
+			"name": "Coding",
+			"keywords": []
+		}
+	]
 }
