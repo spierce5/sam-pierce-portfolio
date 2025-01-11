@@ -1,21 +1,21 @@
 <script lang="ts" setup>
 import ResumeData from '../assets/resume_data.json'
 
-const { experience } = ResumeData
+const { work } = ResumeData
 </script>
 
 <template>
   <div class="about">
     <ul>
-      <li v-for="xp in experience" v-bind:key="xp.title">
-        {{ xp.company }} - {{ xp.title }}
+      <li v-for="xp in work" v-bind:key="xp.position">
+        {{ xp.name }} - {{ xp.position }}
         <ul>
-          <li>{{ xp.start_date }} - {{ xp.end_date || 'Current' }}</li>
+          <li>{{ xp.startDate }} - {{ xp.endDate || 'Current' }}</li>
           <li>{{ xp.location }}</li>
           <li>
             Responsibilities:
             <ul>
-              <li v-for="rp in xp.responsibilities" v-bind:key="rp">
+              <li v-for="rp in xp.highlights" v-bind:key="rp">
                 {{ rp }}
               </li>
             </ul>
