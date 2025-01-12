@@ -192,7 +192,7 @@ const links = [
 .imageContainer {
   height: 100%;
 
-  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  filter: drop-shadow(-1px 6px 3px slategray);
 }
 
 .contactBar {
