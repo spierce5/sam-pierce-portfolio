@@ -49,7 +49,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(219, 100%, 37%, 0.2);
+    background-color: var(--color-button-hover);
   }
 }
 

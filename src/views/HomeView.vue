@@ -113,23 +113,21 @@ const links = [
   margin: 0.5em 0;
   text-align: left;
 
-  background: linear-gradient(to right, black, red, blue);
+  background: linear-gradient(to right, black, red, blue, black, red, blue, black);
   background-size: 200%;
   color: transparent;
   background-clip: text;
-  animation: colorChange 3s ease-in-out infinite;
+  animation: colorChange 3s ease-in-out 1s infinite reverse;
 }
 
 @keyframes colorChange {
   0% {
     background-position: 0%;
   }
-  50% {
+  100% {
     background-position: 100%;
   }
-  100% {
-    background-position: 0%;
-  }
+
 }
 
 .welcomeMsg {
@@ -191,7 +189,6 @@ const links = [
 
 .imageContainer {
   height: 100%;
-
   filter: drop-shadow(-1px 6px 3px slategray);
 }
 
