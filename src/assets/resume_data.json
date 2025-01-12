@@ -29,7 +29,12 @@
 			"startDate": "2024-01-01",
 			"endDate": null,
 			"summary": "To be completed",
-			"highlights": []
+			"highlights": [
+				"Developed, customized, implemented, and tested API and file-based integrations between Enterprise Asset Management (EAM) and Enterprise Resource Planning (ERP) applications.",
+				"Migrated user accounts and data from legacy systems to new platforms, ensuring seamless transitions.",
+				"Resolved technical issues within customer projects using SQL, developer tools, and code analysis.",
+				"Created scripts and software solutions tailored to meet specific customer requirements."
+			]
 		},
 		{
 			"name": "Aptean",
