@@ -9,13 +9,14 @@ interface Project {
   html_url: string
 }
 
-const API_URL = 'https://api.github.com/users/spierce5/repos'
+const API_URL = 'https://api.github.com/search/repositories?q=user:spierce5+topic:featured-repo'
 const projects = ref<Project[]>([])
 
 watchEffect(async () => {
   // this effect will run immediately and then
   const url = API_URL
-  projects.value = await (await fetch(url)).json()
+  const res = await (await fetch(url)).json()
+  projects.value = res.items
 })
 
 // interface GitHubRepo {
